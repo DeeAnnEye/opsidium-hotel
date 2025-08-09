@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/opsidium-hotel/static/css/main.cc143701.css",
-    "main.js": "/opsidium-hotel/static/js/main.f1849e15.js",
+    "main.css": "/opsidium-hotel/static/css/main.b4ceeaad.css",
+    "main.js": "/opsidium-hotel/static/js/main.f08e959f.js",
     "static/js/453.1aff4fdf.chunk.js": "/opsidium-hotel/static/js/453.1aff4fdf.chunk.js",
-    "static/media/food.png": "/opsidium-hotel/static/media/food.920f6c6201361d96921b.png",
+    "static/media/hero2.png": "/opsidium-hotel/static/media/hero2.80a9c5d6c0e2dd9687c0.png",
+    "static/media/hero.png": "/opsidium-hotel/static/media/hero.a6ffca2e25072c946b2f.png",
+    "static/media/events.png": "/opsidium-hotel/static/media/events.5492830f2e2ac71f8a41.png",
+    "static/media/cb.jpg": "/opsidium-hotel/static/media/cb.7686bb182c0800b0a4c0.jpg",
+    "static/media/bh.jpg": "/opsidium-hotel/static/media/bh.1fb8d7274a642993cafe.jpg",
+    "static/media/mb.jpg": "/opsidium-hotel/static/media/mb.35a28eaba1b23b6ed2ac.jpg",
+    "static/media/ch.jpg": "/opsidium-hotel/static/media/ch.57005709dd1d86d5d5df.jpg",
+    "static/media/cocoh.jpg": "/opsidium-hotel/static/media/cocoh.b70573eed934ccb15c6a.jpg",
+    "static/media/bb.jpg": "/opsidium-hotel/static/media/bb.2f2ad1858b4ff46778a1.jpg",
+    "static/media/gallery3.jpeg": "/opsidium-hotel/static/media/gallery3.7ee509bcbaa25d867fb5.jpeg",
+    "static/media/gallery5.jpeg": "/opsidium-hotel/static/media/gallery5.016d6cb5d196a328ac4e.jpeg",
+    "static/media/gallery4.jpeg": "/opsidium-hotel/static/media/gallery4.2acfe53a58949a96ff84.jpeg",
+    "static/media/gallery1.jpeg": "/opsidium-hotel/static/media/gallery1.f1bc0362308d45c48e7a.jpeg",
     "index.html": "/opsidium-hotel/index.html",
-    "main.cc143701.css.map": "/opsidium-hotel/static/css/main.cc143701.css.map",
-    "main.f1849e15.js.map": "/opsidium-hotel/static/js/main.f1849e15.js.map",
+    "main.b4ceeaad.css.map": "/opsidium-hotel/static/css/main.b4ceeaad.css.map",
+    "main.f08e959f.js.map": "/opsidium-hotel/static/js/main.f08e959f.js.map",
     "453.1aff4fdf.chunk.js.map": "/opsidium-hotel/static/js/453.1aff4fdf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc143701.css",
-    "static/js/main.f1849e15.js"
+    "static/css/main.b4ceeaad.css",
+    "static/js/main.f08e959f.js"
   ]
 }
