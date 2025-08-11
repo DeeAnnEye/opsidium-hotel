@@ -31,7 +31,8 @@ export default function Contacts() {
             </a>
           </p>
           <p>
-            🕒 <strong style={styles.linkHead}>Hours:</strong> Mon–Sun: 11 AM – 11 PM
+            🕒 <strong style={styles.linkHead}>Hours:</strong>
+            <p style={styles.link}>Mon–Sun: 11 AM – 11 PM</p>
           </p>
         </div>
 
@@ -68,14 +69,14 @@ const styles = {
     color: "#333",
     display: "flex",
     flexDirection: "row",
-    gap: "2rem",           // instead of 30px
+    gap: "2rem", // instead of 30px
     alignItems: "center",
-    marginTop: "1rem",     // instead of 10px
+    marginTop: "1rem", // instead of 10px
   },
   title: {
     textAlign: "center",
     color: "rgb(183, 50, 50)",
-    fontSize: "2.5vmin",   // scales with viewport height/width
+    fontSize: "2.5vmin", // scales with viewport height/width
   },
   card: {
     background: "white",
@@ -95,7 +96,7 @@ const styles = {
   },
   map: {
     width: "100%",
-    height: "40vmin",      // roughly responsive height
+    height: "40vmin", // roughly responsive height
     borderRadius: "0.75rem",
     overflow: "hidden",
   },
@@ -104,7 +105,7 @@ const styles = {
     color: "white",
     padding: "0.8rem 1.5rem", // 12px 20px approx
     border: "none",
-    borderRadius: "1.5rem",   // 25px
+    borderRadius: "1.5rem", // 25px
     cursor: "pointer",
     fontWeight: "bold",
     fontSize: "2vmin",
@@ -115,4 +116,3 @@ const styles = {
     fontSize: "2vmin",
   },
 };
-
