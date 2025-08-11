@@ -7,8 +7,8 @@ export default function Contacts() {
       <h1 className="about-title">Contact Us</h1>
       <div style={styles.container}>
         <div style={styles.card}>
-          <p style={styles.link}>
-            📍 <strong>Address:</strong>{" "}
+          <p>
+            📍 <strong style={styles.linkHead}>Address:</strong>{" "}
             <a
               style={styles.link}
               href="https://maps.google.com"
@@ -18,20 +18,20 @@ export default function Contacts() {
               123 Spice Street, Foodie Town
             </a>
           </p>
-          <p style={styles.link}>
-            📞 <strong>Phone:</strong>{" "}
+          <p>
+            📞 <strong style={styles.linkHead}>Phone:</strong>{" "}
             <a style={styles.link} href="tel:+919876543210">
               +91 98765 43210
             </a>
           </p>
-          <p style={styles.link}>
-            ✉ <strong>Email:</strong>{" "}
+          <p>
+            ✉ <strong style={styles.linkHead}>Email:</strong>{" "}
             <a style={styles.link} href="mailto:info@spicebiryani.com">
               info@spicebiryani.com
             </a>
           </p>
-          <p style={styles.link}>
-            🕒 <strong>Hours:</strong> Mon–Sun: 11 AM – 11 PM
+          <p>
+            🕒 <strong style={styles.linkHead}>Hours:</strong> Mon–Sun: 11 AM – 11 PM
           </p>
         </div>
 
@@ -86,6 +86,10 @@ const styles = {
   },
   link: {
     color: "rgb(183, 50, 50)",
+    textDecoration: "none",
+    fontSize: "2vmin",
+  },
+  linkHead: {
     textDecoration: "none",
     fontSize: "2vmin",
   },
