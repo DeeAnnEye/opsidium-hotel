@@ -80,7 +80,7 @@ const styles = {
   },
   card: {
     background: "white",
-    padding: "1rem",
+    padding: "0.5rem",
     height: "40vmin",
     borderRadius: "0.75rem", // 12px ~ 0.75rem
     boxShadow: "0 0.125rem 0.375rem rgba(0,0,0,0.1)", // 2px,6px
