@@ -30,10 +30,10 @@ export default function Contacts() {
               info@spicebiryani.com
             </a>
           </p>
-          <p>
+          {/* <p>
             🕒 <strong style={styles.linkHead}>Hours:</strong>
             <p style={styles.link}>Mon–Sun: 11 AM – 11 PM</p>
-          </p>
+          </p> */}
         </div>
 
         <div style={styles.map}>
