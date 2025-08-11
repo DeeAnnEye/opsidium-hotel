@@ -7,7 +7,7 @@ export default function Contacts() {
       <h1 className="about-title">Contact Us</h1>
       <div style={styles.container}>
         <div style={styles.card}>
-          <p>
+          <p style={styles.link}>
             📍 <strong>Address:</strong>{" "}
             <a
               style={styles.link}
@@ -18,19 +18,19 @@ export default function Contacts() {
               123 Spice Street, Foodie Town
             </a>
           </p>
-          <p>
+          <p style={styles.link}>
             📞 <strong>Phone:</strong>{" "}
             <a style={styles.link} href="tel:+919876543210">
               +91 98765 43210
             </a>
           </p>
-          <p>
+          <p style={styles.link}>
             ✉ <strong>Email:</strong>{" "}
             <a style={styles.link} href="mailto:info@spicebiryani.com">
               info@spicebiryani.com
             </a>
           </p>
-          <p>
+          <p style={styles.link}>
             🕒 <strong>Hours:</strong> Mon–Sun: 11 AM – 11 PM
           </p>
         </div>
@@ -87,7 +87,7 @@ const styles = {
   link: {
     color: "rgb(183, 50, 50)",
     textDecoration: "none",
-    fontSize: "4vmin",
+    fontSize: "2vmin",
   },
   map: {
     width: "100%",
