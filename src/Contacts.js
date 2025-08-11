@@ -68,43 +68,46 @@ const styles = {
     color: "#333",
     display: "flex",
     flexDirection: "row",
-    gap: "30px",
-    alignItems:"center",
-    marginTop: "10px"
+    gap: "2rem",           // instead of 30px
+    alignItems: "center",
+    marginTop: "1rem",     // instead of 10px
   },
   title: {
     textAlign: "center",
     color: "rgb(183, 50, 50)",
+    fontSize: "2.5vmin",   // scales with viewport height/width
   },
   card: {
     background: "white",
-    padding: "10px",
-    borderRadius: "12px",
-    // marginBottom: "20px",
-    boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
+    padding: "1rem",
+    borderRadius: "0.75rem", // 12px ~ 0.75rem
+    boxShadow: "0 0.125rem 0.375rem rgba(0,0,0,0.1)", // 2px,6px
   },
   link: {
     color: "rgb(183, 50, 50)",
     textDecoration: "none",
+    fontSize: "2vmin",
   },
   map: {
     width: "100%",
-    height: "370px",
-    borderRadius: "12px",
+    height: "25vmin",      // roughly responsive height
+    borderRadius: "0.75rem",
     overflow: "hidden",
-    // marginBottom: "20px",
   },
   button: {
     background: "rgb(183, 50, 50)",
     color: "white",
-    padding: "12px 20px",
+    padding: "0.8rem 1.5rem", // 12px 20px approx
     border: "none",
-    borderRadius: "25px",
+    borderRadius: "1.5rem",   // 25px
     cursor: "pointer",
     fontWeight: "bold",
+    fontSize: "2vmin",
   },
   social: {
     textAlign: "center",
-    marginTop: "20px",
+    marginTop: "1.5rem",
+    fontSize: "2vmin",
   },
 };
+
