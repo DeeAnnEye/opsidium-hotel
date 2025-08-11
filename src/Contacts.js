@@ -86,11 +86,11 @@ const styles = {
   link: {
     color: "rgb(183, 50, 50)",
     textDecoration: "none",
-    fontSize: "2vmin",
+    fontSize: "4vmin",
   },
   map: {
     width: "100%",
-    height: "25vmin",      // roughly responsive height
+    height: "40vmin",      // roughly responsive height
     borderRadius: "0.75rem",
     overflow: "hidden",
   },
