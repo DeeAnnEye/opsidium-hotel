@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/opsidium-hotel/static/css/main.b4ceeaad.css",
+    "main.css": "/opsidium-hotel/static/css/main.48457adc.css",
     "main.js": "/opsidium-hotel/static/js/main.f08e959f.js",
     "static/js/453.1aff4fdf.chunk.js": "/opsidium-hotel/static/js/453.1aff4fdf.chunk.js",
     "static/media/hero2.png": "/opsidium-hotel/static/media/hero2.80a9c5d6c0e2dd9687c0.png",
@@ -17,12 +17,12 @@
     "static/media/gallery4.jpeg": "/opsidium-hotel/static/media/gallery4.2acfe53a58949a96ff84.jpeg",
     "static/media/gallery1.jpeg": "/opsidium-hotel/static/media/gallery1.f1bc0362308d45c48e7a.jpeg",
     "index.html": "/opsidium-hotel/index.html",
-    "main.b4ceeaad.css.map": "/opsidium-hotel/static/css/main.b4ceeaad.css.map",
+    "main.48457adc.css.map": "/opsidium-hotel/static/css/main.48457adc.css.map",
     "main.f08e959f.js.map": "/opsidium-hotel/static/js/main.f08e959f.js.map",
     "453.1aff4fdf.chunk.js.map": "/opsidium-hotel/static/js/453.1aff4fdf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4ceeaad.css",
+    "static/css/main.48457adc.css",
     "static/js/main.f08e959f.js"
   ]
 }
