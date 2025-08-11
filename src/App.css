@@ -3,27 +3,7 @@
   font-family: "Google Sans Code", monospace;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-.App-header {
-  background-color: #f1ecec;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
+.App-header,
 .App-body {
   background-color: #f1ecec;
   min-height: 100vh;
@@ -49,103 +29,32 @@
   animation: logo-move 3s ease-in-out forwards;
 }
 
-/* .App-name {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  font-size: 3rem;
-  opacity: 0; 
-  transition: opacity 1s ease;
-  color: white;
-  font-weight: 700;
-} */
-
 .App-name {
   position: fixed;
   top: 4%;
   left: 22%;
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 4vw, 3rem);
   transition: opacity 1s ease;
   color: rgb(183, 50, 50);
   font-weight: 700;
-  opacity: 0; /* start hidden */
+  opacity: 0;
 }
 
 .App-name.fade-in {
   animation: fadeInOpacity 1s ease forwards;
 }
 
-@keyframes fadeInOpacity {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes logo-move {
-  0% {
-    transform: translate(-50%, -50%) rotate(0deg) scale(2.3);
-    opacity: 1;
-  }
-  70% {
-    transform: translate(-50%, -50%) rotate(720deg) scale(2.05);
-    opacity: 1;
-  }
-  90% {
-    transform: translate(calc(-50% + 5%), calc(-50% - 5%)) rotate(720deg)
-      scale(1.6);
-    opacity: 0.95;
-  }
-  100% {
-    top: 20px;
-    left: 15%;
-    transform: translateX(-50%) rotate(720deg) scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes name-move {
-  0% {
-    top: calc(50% + 100px);
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  100% {
-    top: 20px;
-    left: calc(15% + 120px);
-    transform: translateY(0);
-  }
-}
-
-/* Fade-in animation */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fade-in {
-  animation: fadeIn 1s ease forwards;
-}
-
-/* Move carousel to bottom */
+/* Carousel */
 .carousel-container {
   position: fixed;
   bottom: 30px;
-  left: 30%;
+  left: 50%;
   transform: translateX(-50%);
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  width: 60vw;
+  width: 90%;
   max-width: 570px;
   background: rgba(255 255 255 / 0.9);
   padding: 10px 20px;
@@ -154,24 +63,23 @@
   z-index: 1000;
 }
 
-/* Keep rest the same */
 .carousel-items {
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE 10+ */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   width: 100%;
 }
 
 .carousel-items::-webkit-scrollbar {
-  display: none; /* Chrome, Safari */
+  display: none;
 }
 
 .carousel-item {
-  all: unset; /* Removes default button styles */
+  all: unset;
   display: inline-block;
-  padding: 12px 20px;
+  padding: 10px 16px;
   margin-right: 10px;
   background: rgb(183, 50, 50);
   color: white;
@@ -182,6 +90,7 @@
   user-select: none;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
   transition: background 0.3s ease;
+  font-size: clamp(0.8rem, 2vw, 1rem);
 }
 
 .carousel-item:hover {
@@ -192,9 +101,9 @@
   background: rgb(183, 50, 50);
   border: none;
   color: white;
-  font-size: 2rem;
-  width: 40px;
-  height: 40px;
+  font-size: 1.5rem;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
@@ -206,77 +115,111 @@
   background: rgb(150, 40, 40);
 }
 
-.carousel-btn.left {
-  margin-right: 5px;
-}
-
-.carousel-btn.right {
-  margin-left: 5px;
-}
-
-.about-title {
+/* About section */
+.about-title,
+.menu-title {
   position: fixed;
   top: 10%;
-  left: 40%;
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 4vw, 3rem);
   transition: opacity 1s ease;
   color: rgb(183, 50, 50);
   font-weight: 700;
-}
-
-.about-desc {
-  transition: opacity 1s ease;
-  color: rgb(0, 0, 0);
   text-align: center;
-  width: 80%;
 }
 
 .about {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  width: 78%;
+  width: 90%;
 }
 
-.menu-title {
-  position: fixed;
-  top: 10%;
-  left: 45%;
-  font-size: 3rem;
-  transition: opacity 1s ease;
-  color: rgb(183, 50, 50);
-  font-weight: 700;
+.about-desc {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 90%;
 }
 
 .hero {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .hero-img {
-  width: 550px;
-  height: 350px;
-  padding: 20px;
-  border-radius: 40px;
-}
-
-.event-img {
-  width: 750px;
-  height: 450px;
+  width: min(100%, 550px);
+  height: auto;
+  padding: 10px;
   border-radius: 20px;
 }
 
+.event-img {
+  width: min(100%, 750px);
+  height: auto;
+  border-radius: 20px;
+}
+
+/* Floating Action Button */
 .fab {
-  position: "fixed";
-  bottom: "20px";
-  right: "20px";
-  width: "60px";
-  height: "60px";
-  border-radius: "50%";
-  background: "rgb(183, 50, 50)";
-  color: "white";
-  font-size: "24px";
-  border: "none";
-  box-shadow: "0 4px 6px rgba(0,0,0,0.2)";
-  cursor: "pointer";
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(183, 50, 50);
+  color: white;
+  font-size: 20px;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
   z-index: 1000;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .App-name {
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .carousel-container {
+    width: 95%;
+    bottom: 20px;
+  }
+
+  .about-title, .menu-title {
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .App-logo {
+    height: 25vmin;
+  }
+
+  .carousel-item {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+  }
+
+  .carousel-btn {
+    font-size: 1.2rem;
+    width: 30px;
+    height: 30px;
+  }
+
+  .fab {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+  }
 }
